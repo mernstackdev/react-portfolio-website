@@ -28,7 +28,10 @@ jobs:
 
       - name: Deploy to S3
         uses: jakejarvis/s3-sync-action@master
-
+        # If your bucket is public, then you can use this block with args
+        # I'm using a private bucket, that's why I don't need this block
+        # with:
+        #  args: --acl public-read --follow-symlinks --delete
         env:
           AWS_S3_BUCKET: ${{ secrets.BUCKET_NAME }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
