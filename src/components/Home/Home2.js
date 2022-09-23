@@ -19,7 +19,9 @@ function Home2() {
               Let Me <span className="purple"> Introduce </span> Myself
             </h1>
             <p className="home-about-body">
-              Since I was a kid, I have loved and excelled in programming, mathematics, natural sciences, data analysis, electronics, and problem solving.
+              Since I was a kid, I have loved and excelled in programming,
+              mathematics, natural sciences, data analysis, electronics, and
+              problem solving.
               <br />
               <br />I am experienced in programming languages including
               <i>
@@ -27,17 +29,18 @@ function Home2() {
               </i>
               , and SQL dialects including
               <i>
-                <b className="purple"> SQL Server, Oracle PL/SQL, PostgreSQL, and MySQL</b>.
+                <b className="purple">
+                  {" "}
+                  SQL Server, Oracle PL/SQL, PostgreSQL, and MySQL
+                </b>
+                .
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">...placeholder </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  ....placeholder
-                </b>
+                <b className="purple">...placeholder </b> and also in areas
+                related to <b className="purple">....placeholder</b>
               </i>
               <br />
               <br />
@@ -67,7 +70,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/beebus"
+                  href="https://github.com/GreatHayat"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
